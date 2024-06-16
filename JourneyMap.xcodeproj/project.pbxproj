@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C51D627B2C1EF824003B8359 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D627A2C1EF824003B8359 /* LocationManager.swift */; };
+		C51D627D2C1EF890003B8359 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D627C2C1EF890003B8359 /* CameraManager.swift */; };
+		C51D627F2C1EF959003B8359 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D627E2C1EF959003B8359 /* CameraView.swift */; };
 		C54F48502C1E15FB00351CFF /* JourneyMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F484F2C1E15FB00351CFF /* JourneyMapApp.swift */; };
 		C54F48522C1E15FB00351CFF /* MarkerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F48512C1E15FB00351CFF /* MarkerListView.swift */; };
 		C54F48542C1E15FB00351CFF /* MarkerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F48532C1E15FB00351CFF /* MarkerItem.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C51D627A2C1EF824003B8359 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C51D627C2C1EF890003B8359 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		C51D627E2C1EF959003B8359 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		C54F484C2C1E15FB00351CFF /* JourneyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JourneyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54F484F2C1E15FB00351CFF /* JourneyMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyMapApp.swift; sourceTree = "<group>"; };
 		C54F48512C1E15FB00351CFF /* MarkerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerListView.swift; sourceTree = "<group>"; };
@@ -102,6 +108,9 @@
 				C54F487B2C1E993300351CFF /* MapView.swift */,
 				C54F48512C1E15FB00351CFF /* MarkerListView.swift */,
 				C54F48532C1E15FB00351CFF /* MarkerItem.swift */,
+				C51D627A2C1EF824003B8359 /* LocationManager.swift */,
+				C51D627C2C1EF890003B8359 /* CameraManager.swift */,
+				C51D627E2C1EF959003B8359 /* CameraView.swift */,
 				C54F48552C1E15FC00351CFF /* Assets.xcassets */,
 				C54F48572C1E15FC00351CFF /* Preview Content */,
 			);
@@ -264,8 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C54F48522C1E15FB00351CFF /* MarkerListView.swift in Sources */,
+				C51D627F2C1EF959003B8359 /* CameraView.swift in Sources */,
 				C54F487C2C1E993300351CFF /* MapView.swift in Sources */,
+				C51D627B2C1EF824003B8359 /* LocationManager.swift in Sources */,
 				C54F48542C1E15FB00351CFF /* MarkerItem.swift in Sources */,
+				C51D627D2C1EF890003B8359 /* CameraManager.swift in Sources */,
 				C54F48502C1E15FB00351CFF /* JourneyMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +445,9 @@
 				DEVELOPMENT_TEAM = VT3V6MHTZ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -462,6 +477,9 @@
 				DEVELOPMENT_TEAM = VT3V6MHTZ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
