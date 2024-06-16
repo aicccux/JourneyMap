@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C54F48502C1E15FB00351CFF /* JourneyMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F484F2C1E15FB00351CFF /* JourneyMapApp.swift */; };
-		C54F48522C1E15FB00351CFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F48512C1E15FB00351CFF /* ContentView.swift */; };
-		C54F48542C1E15FB00351CFF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F48532C1E15FB00351CFF /* Item.swift */; };
+		C54F48522C1E15FB00351CFF /* MarkerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F48512C1E15FB00351CFF /* MarkerListView.swift */; };
+		C54F48542C1E15FB00351CFF /* MarkerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F48532C1E15FB00351CFF /* MarkerItem.swift */; };
 		C54F48562C1E15FC00351CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54F48552C1E15FC00351CFF /* Assets.xcassets */; };
 		C54F48592C1E15FC00351CFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54F48582C1E15FC00351CFF /* Preview Assets.xcassets */; };
 		C54F48632C1E15FC00351CFF /* JourneyMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F48622C1E15FC00351CFF /* JourneyMapTests.swift */; };
 		C54F486D2C1E15FC00351CFF /* JourneyMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F486C2C1E15FC00351CFF /* JourneyMapUITests.swift */; };
 		C54F486F2C1E15FC00351CFF /* JourneyMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F486E2C1E15FC00351CFF /* JourneyMapUITestsLaunchTests.swift */; };
+		C54F487C2C1E993300351CFF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F487B2C1E993300351CFF /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,8 @@
 /* Begin PBXFileReference section */
 		C54F484C2C1E15FB00351CFF /* JourneyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JourneyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54F484F2C1E15FB00351CFF /* JourneyMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyMapApp.swift; sourceTree = "<group>"; };
-		C54F48512C1E15FB00351CFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C54F48532C1E15FB00351CFF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C54F48512C1E15FB00351CFF /* MarkerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerListView.swift; sourceTree = "<group>"; };
+		C54F48532C1E15FB00351CFF /* MarkerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerItem.swift; sourceTree = "<group>"; };
 		C54F48552C1E15FC00351CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C54F48582C1E15FC00351CFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C54F485E2C1E15FC00351CFF /* JourneyMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JourneyMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +47,7 @@
 		C54F48682C1E15FC00351CFF /* JourneyMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JourneyMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54F486C2C1E15FC00351CFF /* JourneyMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyMapUITests.swift; sourceTree = "<group>"; };
 		C54F486E2C1E15FC00351CFF /* JourneyMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C54F487B2C1E993300351CFF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				C54F484F2C1E15FB00351CFF /* JourneyMapApp.swift */,
-				C54F48512C1E15FB00351CFF /* ContentView.swift */,
-				C54F48532C1E15FB00351CFF /* Item.swift */,
+				C54F487B2C1E993300351CFF /* MapView.swift */,
+				C54F48512C1E15FB00351CFF /* MarkerListView.swift */,
+				C54F48532C1E15FB00351CFF /* MarkerItem.swift */,
 				C54F48552C1E15FC00351CFF /* Assets.xcassets */,
 				C54F48572C1E15FC00351CFF /* Preview Content */,
 			);
@@ -260,8 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C54F48522C1E15FB00351CFF /* ContentView.swift in Sources */,
-				C54F48542C1E15FB00351CFF /* Item.swift in Sources */,
+				C54F48522C1E15FB00351CFF /* MarkerListView.swift in Sources */,
+				C54F487C2C1E993300351CFF /* MapView.swift in Sources */,
+				C54F48542C1E15FB00351CFF /* MarkerItem.swift in Sources */,
 				C54F48502C1E15FB00351CFF /* JourneyMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
